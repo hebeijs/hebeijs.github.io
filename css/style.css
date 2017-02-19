@@ -340,10 +340,8 @@ input[type="search"]::-webkit-search-decoration {
 }
 body >header {
   width: 100%;
-  -webkit-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-  -moz-box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-  box-shadow: 2px 4px 5px rgba(3,3,3,0.2);
-  background: #363636;
+  line-height: 60px;
+  background: #007fff;
   color: #fff;
 }
 body >header >div {
@@ -402,19 +400,19 @@ body >header a {
   display: inline;
 /*font-family font-custom-family*/
   font-family: "Hiragino Sans GB", "微软雅黑", "STXihei", Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
-  font-size: 205%;
+  font-size: 165%;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 @media only screen and (min-width: 768px) {
   #textlogo h1.site-name {
-    font-size: 245%;
+    font-size: 185%;
   }
 }
 @media only screen and (min-width: 1024px) {
   #textlogo h1.site-name {
-    font-size: 215%;
+    font-size: 145%;
   }
 }
 #textlogo h2.blog-motto {
